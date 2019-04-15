@@ -25,13 +25,18 @@
  
 <span></span>
 <div></div>
+
+<?php
+    // Write out Hello World!
+    echo '<p>Hello, World!</p>';
+?>
  
 <script>
 $( document.body )
   .click(function() {
     $( this ).append( $( "<div>" ) );
     var n = $( "div" ).size();
-    $( "span" ).text( "There are " + n + " divs. Click to add more." );
+    $( "span" ).text( "There are " + n + " divs. Click any place to add more." );
   })
  
   // Trigger the click to start
