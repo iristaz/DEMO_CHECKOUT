@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <title>Example using `omise.js` alternative payment form</title>
+</head>
+<body>
+<form class="checkout-form" name="checkoutForm" method="POST" action="checkout.php">
+  <script type="text/javascript" src="https://cdn.omise.co/omise.js"
+          data-key="YOUR_PUBLIC_KEY"
+          data-frame-label="Merchant site name"
+          data-frame-description="Merchant site description"
+          data-default-payment-method="alipay"
+          data-other-payment-methods="internet_banking, bill_payment_tesco_lotus, alipay, credit_card, pay_easy, net_banking, convenience_store"
+          data-amount="10000"
+          data-currency="usd"
+          data-button-label="Click to see an example">
+  </script>
+</form>
+
+</body>
+</html>
