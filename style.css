@@ -11,3 +11,7 @@ body {
 p {
 	color: blue;
 }
+
+form {
+	margin-left: 20px;
+}
